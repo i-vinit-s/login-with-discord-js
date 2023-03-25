@@ -1,5 +1,13 @@
 {
+  "homepage": "http://iamvinit.me/login-with-discord-js/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
